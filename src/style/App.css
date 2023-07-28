@@ -15,26 +15,6 @@
   --white: hsl(0, 0%, 100%);
 }
 
-
-@media only screen and (max-height:470px){
-  .card-body-left {
-    display: flex;
-    flex-direction: column;
-    align-items: none;
-    padding: 0px 30px;
-    /* background-color: bisque; */
-    order: 2;
-    text-align: start;
-    margin-top: -20px;
-  }
-  
-  .card-body-right {
-    padding: 0;
-    margin-top: 0px;
-    order: 1;
-    display: none;
-  }
-}
 body {
   font-family: "Roboto", sans-serif;
   height: auto;
